@@ -15,8 +15,8 @@ def Widgets():
     
     head_label = Label(root, text= "YouTube Video Downloader @sumitvarun",padx= 15,pady= 15,
     font= "SegoeUI 14",
-    bg= "grey",
-    fg= "red")
+    bg= "#17202A",
+    fg= "#E5E8E8")
 
     head_label.grid(
         row=1,
@@ -28,8 +28,9 @@ def Widgets():
         
     link_label = Label(
         root,
-        text= "youtube link",
-        bg = "salmon",
+        text= "YouTube Link",
+        bg = "#4A235A",
+        fg= "white",
         padx= 5,
         pady=5)
 
@@ -52,7 +53,8 @@ def Widgets():
  
     destination_label = Label(root,
                               text="Destination :",
-                              bg="salmon",
+                              bg="#922B21",
+                              fg= "white",
                               pady=5,
                               padx=9)
     destination_label.grid(row=3,
@@ -73,7 +75,8 @@ def Widgets():
                       text="Browse",
                       command=Browse,
                       width=10,
-                      bg="bisque",
+                      bg="#7E5109",
+                      fg= "#F9E79F",
                       relief=GROOVE)
     browse_B.grid(row=3,
                   column=2,
@@ -84,7 +87,8 @@ def Widgets():
                         text="Download Video",
                         command=Download,
                         width=20,
-                        bg="thistle1",
+                        bg="#145A32",
+                        fg="#A9DFBF",
                         pady=10,
                         padx=15,
                         relief=GROOVE,
@@ -153,7 +157,7 @@ root = tk.Tk()
 root.geometry("520x280")
 root.resizable(False, False)
 root.title("YouTube Video Downloader")
-root.config(background= "PaleGreen1")
+root.config(background= "#2E4053")
 
 #Creating the tkinter Variables
 video_Link = StringVar()
