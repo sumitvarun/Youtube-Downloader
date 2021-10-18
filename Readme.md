@@ -1,3 +1,7 @@
+[![GitHub issues](https://img.shields.io/github/issues/sumitvarun/Youtube-Downloader)](https://github.com/sumitvarun/Youtube-Downloader/issues)
+[![GitHub forks](https://img.shields.io/github/forks/sumitvarun/Youtube-Downloader)](https://github.com/sumitvarun/Youtube-Downloader/network)
+[![GitHub stars](https://img.shields.io/github/stars/sumitvarun/Youtube-Downloader)](https://github.com/sumitvarun/Youtube-Downloader/stargazers)
+[![GitHub license](https://img.shields.io/github/license/sumitvarun/Youtube-Downloader)](https://github.com/sumitvarun/Youtube-Downloader)
 <h1>Pytube | Python library to download youtube videos</h1>
 <h4>Python library which is used for downloading videos from the web.
 pytube is not the native library. You need to install it before using it. Installation is easy when you have pip. In the Terminal or Command Prompt, type the following command to install pytube.
